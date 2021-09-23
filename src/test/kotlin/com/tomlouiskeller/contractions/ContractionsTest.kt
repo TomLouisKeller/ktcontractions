@@ -34,15 +34,15 @@ internal class ContractionsTest {
     }
 
     @Nested
-    @DisplayName("GetContractionsFromFile")
+    @DisplayName("GetContractionListFromFile")
     @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-    inner class GetContractionsFromFile {
+    inner class GetContractionListFromFile {
         @Test
         fun `should retrieve contractions data`() {
             // given
             val path = EXPAND_SINGLE_CONTRACTIONS_JSON
             // when
-            val actual = Contractions.getContractionsFromFile(path)
+            val actual = Contractions.getContractionListFromFile(path)
             // then
             assertThat(actual).hasSizeGreaterThan(0)
             assertThat(actual.first().find.pattern).isEqualTo("""\b(?i)i['’`]m\b""")

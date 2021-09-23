@@ -52,7 +52,7 @@ class Contractions @Autowired constructor(
             return contractions
         }
 
-        fun getContractionsFromFile(path: String): List<Contraction> {
+        fun getContractionListFromFile(path: String): List<Contraction> {
             val mapper = jacksonObjectMapper()
             mapper.registerKotlinModule()
             val jsonString : String = File(path).readText(Charsets.UTF_8)
@@ -61,7 +61,7 @@ class Contractions @Autowired constructor(
     }
 
     fun addContractions(path: String) {
-        contractions.addAll(getContractionsFromFile(path))
+        contractions.addAll(getContractionListFromFile(path))
     }
 
 
