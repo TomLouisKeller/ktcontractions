@@ -1,0 +1,66 @@
+[
+  {
+    "find": "\\b(?i)['’`]m\\b",
+    "replace": {
+      "\\b['’`]m\\b": " am",
+      "\\b['’`]M\\b": " AM",
+      "\\b(?i)['’`]m\\b": " am"
+    }
+  },
+  {
+    "find": "\\b(?i)['’`]re\\b",
+    "replace": {
+      "\\b['’`]re\\b": " are",
+      "\\b['’`]RE\\b": " ARE",
+      "\\b(?i)['’`]re\\b": " are"
+    }
+  },
+  {
+    "find": "\\b(?i)['’`]t\\b",
+    "replace": {
+      "\\b['’`]t\\b": " not",
+      "\\b['’`]T\\b": " NOT",
+      "\\b(?i)['’`]t\\b": " not"
+    }
+  },
+  {
+    "find": "\\b(?i)n['’`]t\\b",
+    "replace": {
+      "\\bn['’`]t\\b": " not",
+      "\\bN['’`]T\\b": " NOT",
+      "\\b(?i)n['’`]t\\b": " not"
+    }
+  },
+  {
+    "find": "\\b(?i)['’`]d\\b",
+    "replace": {
+      "\\b['’`]d\\b": " would",
+      "\\b['’`]D\\b": " WOULD",
+      "\\b(?i)['’`]d\\b": " would"
+    }
+  },
+  {
+    "find": "\\b(?i)['’`]ll\\b",
+    "replace": {
+      "\\b['’`]ll\\b": " will",
+      "\\b['’`]LL\\b": " WILL",
+      "\\b(?i)['’`]ll\\b": " will"
+    }
+  },
+  {
+    "find": "\\b(?i)['’`]ve\\b",
+    "replace": {
+      "\\b['’`]ve\\b": " have",
+      "\\b['’`]VE\\b": " HAVE",
+      "\\b(?i)['’`]ve\\b": " have"
+    }
+  },
+  {
+    "find": "\\b(?i)['’`]em\\b",
+    "replace": {
+      "\\b['’`]em\\b": " them",
+      "\\b['’`]EM\\b": " THEM",
+      "\\b(?i)['’`]em\\b": " them"
+    }
+  }
+]

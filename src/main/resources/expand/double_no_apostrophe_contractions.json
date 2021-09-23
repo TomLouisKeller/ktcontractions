@@ -1,0 +1,506 @@
+[
+  {
+    "find": "\\b(?i)ima\\b",
+    "replace": {
+      "\\bima\\b": "i am about to",
+      "\\bIma\\b": "I am about to",
+      "\\bIMA\\b": "I AM ABOUT TO",
+      "\\b(?i)ima\\b": "i am about to"
+    }
+  },
+  {
+    "find": "\\b(?i)imo\\b",
+    "replace": {
+      "\\bimo\\b": "i am going to",
+      "\\bImo\\b": "I am going to",
+      "\\bIMO\\b": "I AM GOING TO",
+      "\\b(?i)imo\\b": "i am going to"
+    }
+  },
+  {
+    "find": "\\b(?i)itllve\\b",
+    "replace": {
+      "\\bitllve\\b": "it will have",
+      "\\bItllve\\b": "It will have",
+      "\\bITLLVE\\b": "IT WILL HAVE",
+      "\\b(?i)itllve\\b": "it will have"
+    }
+  },
+  {
+    "find": "\\b(?i)needntve\\b",
+    "replace": {
+      "\\bneedntve\\b": "need not have",
+      "\\bNeedntve\\b": "Need not have",
+      "\\bNEEDNTVE\\b": "NEED NOT HAVE",
+      "\\b(?i)needntve\\b": "need not have"
+    }
+  },
+  {
+    "find": "\\b(?i)theredve\\b",
+    "replace": {
+      "\\btheredve\\b": "there would have",
+      "\\bTheredve\\b": "There would have",
+      "\\bTHEREDVE\\b": "THERE WOULD HAVE",
+      "\\b(?i)theredve\\b": "there would have"
+    }
+  },
+  {
+    "find": "\\b(?i)ell\\b",
+    "replace": {
+      "\\bell\\b": "he will",
+      "\\bEll\\b": "He will",
+      "\\bELL\\b": "HE WILL",
+      "\\b(?i)ell\\b": "he will"
+    }
+  },
+  {
+    "find": "\\b(?i)tisnt\\b",
+    "replace": {
+      "\\btisnt\\b": "it is not",
+      "\\bTisnt\\b": "It is not",
+      "\\bTISNT\\b": "IT IS NOT",
+      "\\b(?i)tisnt\\b": "it is not"
+    }
+  },
+  {
+    "find": "\\b(?i)twasnt\\b",
+    "replace": {
+      "\\btwasnt\\b": "it was not",
+      "\\bTwasnt\\b": "It was not",
+      "\\bTWASNT\\b": "IT WAS NOT",
+      "\\b(?i)twasnt\\b": "it was not"
+    }
+  },
+  {
+    "find": "\\b(?i)twont\\b",
+    "replace": {
+      "\\btwont\\b": "it will not",
+      "\\bTwont\\b": "It will not",
+      "\\bTWONT\\b": "IT WILL NOT",
+      "\\b(?i)twont\\b": "it will not"
+    }
+  },
+  {
+    "find": "\\b(?i)twoud\\b",
+    "replace": {
+      "\\btwoud\\b": "it would",
+      "\\bTwoud\\b": "It would",
+      "\\bTWOUD\\b": "IT WOULD",
+      "\\b(?i)twoud\\b": "it would"
+    }
+  },
+  {
+    "find": "\\b(?i)twouldnt\\b",
+    "replace": {
+      "\\btwouldnt\\b": "it would not",
+      "\\bTwouldnt\\b": "It would not",
+      "\\bTWOULDNT\\b": "IT WOULD NOT",
+      "\\b(?i)twouldnt\\b": "it would not"
+    }
+  },
+  {
+    "find": "\\b(?i)cantve\\b",
+    "replace": {
+      "\\bcantve\\b": "cannot have",
+      "\\bCantve\\b": "Cannot have",
+      "\\bCANTVE\\b": "CANNOT HAVE",
+      "\\b(?i)cantve\\b": "cannot have"
+    }
+  },
+  {
+    "find": "\\b(?i)couldntve\\b",
+    "replace": {
+      "\\bcouldntve\\b": "could not have",
+      "\\bCouldntve\\b": "Could not have",
+      "\\bCOULDNTVE\\b": "COULD NOT HAVE",
+      "\\b(?i)couldntve\\b": "could not have"
+    }
+  },
+  {
+    "find": "\\b(?i)haporth\\b",
+    "replace": {
+      "\\bhaporth\\b": "halfpennyworth",
+      "\\bHaporth\\b": "Halfpennyworth",
+      "\\bHAPORTH\\b": "HALFPENNYWORTH",
+      "\\b(?i)haporth\\b": "halfpennyworth"
+    }
+  },
+  {
+    "find": "\\b(?i)haporths\\b",
+    "replace": {
+      "\\bhaporths\\b": "halfpenniesworth",
+      "\\bHaporths\\b": "Halfpenniesworth",
+      "\\bHAPORTHS\\b": "HALFPENNIESWORTH",
+      "\\b(?i)haporths\\b": "halfpenniesworth"
+    }
+  },
+  {
+    "find": "\\b(?i)hadntve\\b",
+    "replace": {
+      "\\bhadntve\\b": "had not have",
+      "\\bHadntve\\b": "Had not have",
+      "\\bHADNTVE\\b": "HAD NOT HAVE",
+      "\\b(?i)hadntve\\b": "had not have"
+    }
+  },
+  {
+    "find": "\\b(?i)hedve\\b",
+    "replace": {
+      "\\bhedve\\b": "he would have",
+      "\\bHedve\\b": "He would have",
+      "\\bHEDVE\\b": "HE WOULD HAVE",
+      "\\b(?i)hedve\\b": "he would have"
+    }
+  },
+  {
+    "find": "\\b(?i)hellve\\b",
+    "replace": {
+      "\\bhellve\\b": "he will have",
+      "\\bHellve\\b": "He will have",
+      "\\bHELLVE\\b": "HE WILL HAVE",
+      "\\b(?i)hellve\\b": "he will have"
+    }
+  },
+  {
+    "find": "\\b(?i)hesnt\\b",
+    "replace": {
+      "\\bhesnt\\b": "he is not",
+      "\\bHesnt\\b": "He is not",
+      "\\bHESNT\\b": "HE IS NOT",
+      "\\b(?i)hesnt\\b": "he is not"
+    }
+  },
+  {
+    "find": "\\b(?i)idve\\b",
+    "replace": {
+      "\\bidve\\b": "i would have",
+      "\\bIdve\\b": "I would have",
+      "\\bIDVE\\b": "I WOULD HAVE",
+      "\\b(?i)idve\\b": "i would have"
+    }
+  },
+  {
+    "find": "\\b(?i)illve\\b",
+    "replace": {
+      "\\billve\\b": "i will have",
+      "\\bIllve\\b": "I will have",
+      "\\bILLVE\\b": "I WILL HAVE",
+      "\\b(?i)illve\\b": "i will have"
+    }
+  },
+  {
+    "find": "\\b(?i)ivent\\b",
+    "replace": {
+      "\\bivent\\b": "i have not",
+      "\\bIvent\\b": "I have not",
+      "\\bIVENT\\b": "I HAVE NOT",
+      "\\b(?i)ivent\\b": "i have not"
+    }
+  },
+  {
+    "find": "\\b(?i)itdve\\b",
+    "replace": {
+      "\\bitdve\\b": "it would have",
+      "\\bItdve\\b": "It would have",
+      "\\bITDVE\\b": "IT WOULD HAVE",
+      "\\b(?i)itdve\\b": "it would have"
+    }
+  },
+  {
+    "find": "\\b(?i)itsnt\\b",
+    "replace": {
+      "\\bitsnt\\b": "it is not",
+      "\\bItsnt\\b": "It is not",
+      "\\bITSNT\\b": "IT IS NOT",
+      "\\b(?i)itsnt\\b": "it is not"
+    }
+  },
+  {
+    "find": "\\b(?i)mightntve\\b",
+    "replace": {
+      "\\bmightntve\\b": "might not have",
+      "\\bMightntve\\b": "Might not have",
+      "\\bMIGHTNTVE\\b": "MIGHT NOT HAVE",
+      "\\b(?i)mightntve\\b": "might not have"
+    }
+  },
+  {
+    "find": "\\b(?i)mustntve\\b",
+    "replace": {
+      "\\bmustntve\\b": "must not have",
+      "\\bMustntve\\b": "Must not have",
+      "\\bMUSTNTVE\\b": "MUST NOT HAVE",
+      "\\b(?i)mustntve\\b": "must not have"
+    }
+  },
+  {
+    "find": "\\b(?i)oughtntve\\b",
+    "replace": {
+      "\\boughtntve\\b": "ought not have",
+      "\\bOughtntve\\b": "Ought not have",
+      "\\bOUGHTNTVE\\b": "OUGHT NOT HAVE",
+      "\\b(?i)oughtntve\\b": "ought not have"
+    }
+  },
+  {
+    "find": "\\b(?i)shant\\b",
+    "replace": {
+      "\\bshant\\b": "shall not",
+      "\\bShant\\b": "Shall not",
+      "\\bSHANT\\b": "SHALL NOT",
+      "\\b(?i)shant\\b": "shall not"
+    }
+  },
+  {
+    "find": "\\b(?i)shantve\\b",
+    "replace": {
+      "\\bshantve\\b": "shall not have",
+      "\\bShantve\\b": "Shall not have",
+      "\\bSHANTVE\\b": "SHALL NOT HAVE",
+      "\\b(?i)shantve\\b": "shall not have"
+    }
+  },
+  {
+    "find": "\\b(?i)shedve\\b",
+    "replace": {
+      "\\bshedve\\b": "she would have",
+      "\\bShedve\\b": "She would have",
+      "\\bSHEDVE\\b": "SHE WOULD HAVE",
+      "\\b(?i)shedve\\b": "she would have"
+    }
+  },
+  {
+    "find": "\\b(?i)shellve\\b",
+    "replace": {
+      "\\bshellve\\b": "she will have",
+      "\\bShellve\\b": "She will have",
+      "\\bSHELLVE\\b": "SHE WILL HAVE",
+      "\\b(?i)shellve\\b": "she will have"
+    }
+  },
+  {
+    "find": "\\b(?i)shesnt\\b",
+    "replace": {
+      "\\bshesnt\\b": "she is not",
+      "\\bShesnt\\b": "She is not",
+      "\\bSHESNT\\b": "SHE IS NOT",
+      "\\b(?i)shesnt\\b": "she is not"
+    }
+  },
+  {
+    "find": "\\b(?i)shoudnt\\b",
+    "replace": {
+      "\\bshoudnt\\b": "should not",
+      "\\bShoudnt\\b": "Should not",
+      "\\bSHOUDNT\\b": "SHOULD NOT",
+      "\\b(?i)shoudnt\\b": "should not"
+    }
+  },
+  {
+    "find": "\\b(?i)shouldntve\\b",
+    "replace": {
+      "\\bshouldntve\\b": "should not have",
+      "\\bShouldntve\\b": "Should not have",
+      "\\bSHOULDNTVE\\b": "SHOULD NOT HAVE",
+      "\\b(?i)shouldntve\\b": "should not have"
+    }
+  },
+  {
+    "find": "\\b(?i)thatdve\\b",
+    "replace": {
+      "\\bthatdve\\b": "that would have",
+      "\\bThatdve\\b": "That would have",
+      "\\bTHATDVE\\b": "THAT WOULD HAVE",
+      "\\b(?i)thatdve\\b": "that would have"
+    }
+  },
+  {
+    "find": "\\b(?i)thatllve\\b",
+    "replace": {
+      "\\bthatllve\\b": "that will have",
+      "\\bThatllve\\b": "That will have",
+      "\\bTHATLLVE\\b": "THAT WILL HAVE",
+      "\\b(?i)thatllve\\b": "that will have"
+    }
+  },
+  {
+    "find": "\\b(?i)theydve\\b",
+    "replace": {
+      "\\btheydve\\b": "they would have",
+      "\\bTheydve\\b": "They would have",
+      "\\bTHEYDVE\\b": "THEY WOULD HAVE",
+      "\\b(?i)theydve\\b": "they would have"
+    }
+  },
+  {
+    "find": "\\b(?i)theyllve\\b",
+    "replace": {
+      "\\btheyllve\\b": "they will have",
+      "\\bTheyllve\\b": "They will have",
+      "\\bTHEYLLVE\\b": "THEY WILL HAVE",
+      "\\b(?i)theyllve\\b": "they will have"
+    }
+  },
+  {
+    "find": "\\b(?i)twerent\\b",
+    "replace": {
+      "\\btwerent\\b": "it were not",
+      "\\bTwerent\\b": "It were not",
+      "\\bTWERENT\\b": "IT WERE NOT",
+      "\\b(?i)twerent\\b": "it were not"
+    }
+  },
+  {
+    "find": "\\b(?i)wedve\\b",
+    "replace": {
+      "\\bwedve\\b": "we would have",
+      "\\bWedve\\b": "We would have",
+      "\\bWEDVE\\b": "WE WOULD HAVE",
+      "\\b(?i)wedve\\b": "we would have"
+    }
+  },
+  {
+    "find": "\\b(?i)wellve\\b",
+    "replace": {
+      "\\bwellve\\b": "we will have",
+      "\\bWellve\\b": "We will have",
+      "\\bWELLVE\\b": "WE WILL HAVE",
+      "\\b(?i)wellve\\b": "we will have"
+    }
+  },
+  {
+    "find": "\\b(?i)wevent\\b",
+    "replace": {
+      "\\bwevent\\b": "we have not",
+      "\\bWevent\\b": "We have not",
+      "\\bWEVENT\\b": "WE HAVE NOT",
+      "\\b(?i)wevent\\b": "we have not"
+    }
+  },
+  {
+    "find": "\\b(?i)whatllve\\b",
+    "replace": {
+      "\\bwhatllve\\b": "what will have",
+      "\\bWhatllve\\b": "What will have",
+      "\\bWHATLLVE\\b": "WHAT WILL HAVE",
+      "\\b(?i)whatllve\\b": "what will have"
+    }
+  },
+  {
+    "find": "\\b(?i)whollve\\b",
+    "replace": {
+      "\\bwhollve\\b": "who will have",
+      "\\bWhollve\\b": "Who will have",
+      "\\bWHOLLVE\\b": "WHO WILL HAVE",
+      "\\b(?i)whollve\\b": "who will have"
+    }
+  },
+  {
+    "find": "\\b(?i)whodve\\b",
+    "replace": {
+      "\\bwhodve\\b": "who would have",
+      "\\bWhodve\\b": "Who would have",
+      "\\bWHODVE\\b": "WHO WOULD HAVE",
+      "\\b(?i)whodve\\b": "who would have"
+    }
+  },
+  {
+    "find": "\\b(?i)wouldntve\\b",
+    "replace": {
+      "\\bwouldntve\\b": "would not have",
+      "\\bWouldntve\\b": "Would not have",
+      "\\bWOULDNTVE\\b": "WOULD NOT HAVE",
+      "\\b(?i)wouldntve\\b": "would not have"
+    }
+  },
+  {
+    "find": "\\b(?i)wontve\\b",
+    "replace": {
+      "\\bwontve\\b": "will not have",
+      "\\bWontve\\b": "Will not have",
+      "\\bWONTVE\\b": "WILL NOT HAVE",
+      "\\b(?i)wontve\\b": "will not have"
+    }
+  },
+  {
+    "find": "\\b(?i)woudnt\\b",
+    "replace": {
+      "\\bwoudnt\\b": "will not have",
+      "\\bWoudnt\\b": "Will not have",
+      "\\bWOUDNT\\b": "WILL NOT HAVE",
+      "\\b(?i)woudnt\\b": "will not have"
+    }
+  },
+  {
+    "find": "\\b(?i)yaint\\b",
+    "replace": {
+      "\\byaint\\b": "you are not",
+      "\\bYaint\\b": "You are not",
+      "\\bYAINT\\b": "YOU ARE NOT",
+      "\\b(?i)yaint\\b": "you are not"
+    }
+  },
+  {
+    "find": "\\b(?i)yalld\\b",
+    "replace": {
+      "\\byalld\\b": "you all would",
+      "\\bYalld\\b": "You all would",
+      "\\bYALLD\\b": "YOU ALL WOULD",
+      "\\b(?i)yalld\\b": "you all would"
+    }
+  },
+  {
+    "find": "\\b(?i)yallre\\b",
+    "replace": {
+      "\\byallre\\b": "you all are",
+      "\\bYallre\\b": "You all are",
+      "\\bYALLRE\\b": "YOU ALL ARE",
+      "\\b(?i)yallre\\b": "you all are"
+    }
+  },
+  {
+    "find": "\\b(?i)yallve\\b",
+    "replace": {
+      "\\byallve\\b": "you all have",
+      "\\bYallve\\b": "You all have",
+      "\\bYALLVE\\b": "YOU ALL HAVE",
+      "\\b(?i)yallve\\b": "you all have"
+    }
+  },
+  {
+    "find": "\\b(?i)youdve\\b",
+    "replace": {
+      "\\byoudve\\b": "you would have",
+      "\\bYoudve\\b": "You would have",
+      "\\bYOUDVE\\b": "YOU WOULD HAVE",
+      "\\b(?i)youdve\\b": "you would have"
+    }
+  },
+  {
+    "find": "\\b(?i)youllve\\b",
+    "replace": {
+      "\\byoullve\\b": "you will have",
+      "\\bYoullve\\b": "You will have",
+      "\\bYOULLVE\\b": "YOU WILL HAVE",
+      "\\b(?i)youllve\\b": "you will have"
+    }
+  },
+  {
+    "find": "\\b(?i)yourent\\b",
+    "replace": {
+      "\\byourent\\b": "you are not",
+      "\\bYourent\\b": "You are not",
+      "\\bYOURENT\\b": "YOU ARE NOT",
+      "\\b(?i)yourent\\b": "you are not"
+    }
+  },
+  {
+    "find": "\\b(?i)youvent\\b",
+    "replace": {
+      "\\byouvent\\b": "you have not",
+      "\\bYouvent\\b": "You have not",
+      "\\bYOUVENT\\b": "YOU HAVE NOT",
+      "\\b(?i)youvent\\b": "you have not"
+    }
+  }
+]
