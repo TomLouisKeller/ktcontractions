@@ -44,6 +44,9 @@ class Contractions @Autowired constructor(
     var contractions : MutableList<Contraction> = mutableListOf()
 
     companion object {
+        // load the default configuration
+        // this only contains ways to expand contractions,
+        // not any to contract them
         fun default() : Contractions {
             val contractions = Contractions(ObjectMapper())
             for (contractionsFile in CONTRACTIONS_JSON_ORDER) {
